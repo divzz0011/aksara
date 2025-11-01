@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aksara Wisata Tour & Travel</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- 🔍 Search Bar -->
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Cari paket wisata..." />
+  </div>
+
+  <!-- 🌟 WELCOME SCREEN -->
+  <div id="welcome-screen">
+    <div class="welcome-content">
+      <h1 class="fade-in">Selamat Datang</h1>
+      <h2 class="fade-in delay">di <span>Aksara Wisata</span></h2>
+      <p class="fade-in delay2">Tour & Travel — Teman Perjalanan Anda</p>
+      <button id="enter-btn" class="btn primary fade-in delay3">Masuk</button>
+    </div>
+  </div>
+
+  <!-- 🧭 HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Aksara <span>Wisata</span></a>
+
+      <nav class="nav" id="nav">
+        <a href="#home">Beranda</a>
+        <a href="#packages">Paket</a>
+        <a href="#contact">Kontak</a>
+        <button id="searchIcon" class="search-icon">🔍</button>
+      </nav>
+
+      <button id="nav-toggle" class="nav-toggle">☰</button>
+    </div>
+  </header>
+
+  <!-- 🌍 MAIN CONTENT -->
+  <main>
+
+    <!-- 🏖️ HERO SECTION -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1>Jelajahi Dunia Bersama Aksara Wisata</h1>
+          <p>Temukan pengalaman berwisata yang berkesan, aman, dan penuh petualangan.</p>
+
+          <div class="hero-cta">
+            <a href="#packages" class="btn primary">Lihat Paket</a>
+            <a href="#contact" class="btn outline">Hubungi Kami</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="https://source.unsplash.com/collection/190727/800x600" alt="destinasi" />
+        </div>
+      </div>
+    </section>
+
+    <!-- 🎒 PAKET WISATA -->
+    <section id="packages" class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">Paket Terpopuler</h2>
+
+        <div class="grid grid-3">
+
+          <div class="package">
+            <img src="https://source.unsplash.com/800x500/?bali,beach" alt="Bali" class="package-img" />
+            <h3>Explore Bali</h3>
+            <p>3 hari 2 malam menikmati keindahan pantai dan budaya Bali.</p>
+            <div class="price">Rp2.500.000</div>
+            <button class="btn primary" data-package="Explore Bali">Pesan via WhatsApp</button>
+          </div>
+
+          <div class="package">
+            <img src="https://source.unsplash.com/800x500/?yogyakarta,temple" alt="Yogyakarta" class="package-img" />
+            <h3>Wonderful Yogyakarta</h3>
+            <p>Wisata budaya, kuliner, dan keindahan alam dalam satu paket.</p>
+            <div class="price">Rp3.200.000</div>
+            <button class="btn primary" data-package="Wonderful Yogyakarta">Pesan via WhatsApp</button>
+          </div>
+
+          <div class="package">
+            <img src="https://source.unsplash.com/800x500/?lombok,island" alt="Lombok" class="package-img" />
+            <h3>Adventure Lombok</h3>
+            <p>4 hari 3 malam menjelajahi alam dan pantai eksotis Lombok.</p>
+            <div class="price">Rp4.800.000</div>
+            <button class="btn primary" data-package="Adventure Lombok">Pesan via WhatsApp</button>
+          </div>
+
+          <div class="package">
+            <img src="https://source.unsplash.com/800x500/?yogyakarta,temple" alt="Yogyakarta" class="package-img" />
+            <h3>Wonderful Yogyakarta</h3>
+            <p>Wisata budaya, kuliner, dan keindahan alam dalam satu paket.</p>
+            <div class="price">Rp3.200.000</div>
+            <button class="btn primary" data-package="Wonderful Yogyakarta">Pesan via WhatsApp</button>
+          </div>
+
+          <div class="package">
+            <img src="https://source.unsplash.com/800x500/?yogyakarta,temple" alt="Yogyakarta" class="package-img" />
+            <h3>Wonderful Yogyakarta</h3>
+            <p>Wisata budaya, kuliner, dan keindahan alam dalam satu paket.</p>
+            <div class="price">Rp3.200.000</div>
+            <button class="btn primary" data-package="Wonderful Yogyakarta">Pesan via WhatsApp</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 📞 KONTAK -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2 class="section-title">Hubungi Kami</h2>
+      <p>Silakan hubungi kami melalui salah satu opsi berikut:</p>
+
+      <div class="contact-grid">
+        <a href="https://wa.me/6281234567890" target="_blank" class="contact-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" />
+          <span>WhatsApp</span>
+        </a>
+
+        <a href="mailto:info@aksarawisata.com" class="contact-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" />
+          <span>Email</span>
+        </a>
+
+        <a href="https://goo.gl/maps/4vX7nAKjFZk" target="_blank" class="contact-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Maps" />
+          <span>Lokasi</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⚓ FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Aksara Wisata Tour & Travel</p>
+    </div>
+  </footer>
+
+  <!-- 📜 SCRIPT -->
+  <script src="script.js"></script>
+</body>
+</html>
